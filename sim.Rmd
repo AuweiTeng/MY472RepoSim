@@ -1,0 +1,30 @@
+---
+title: "Simulation"
+author: ""
+date: "2024-10-19"
+output: html_document
+---
+
+```{r}
+
+func1 <- function( data ) {
+  return ( summary(data) ) #summarises the data and returns
+}
+
+```
+
+```{r}
+
+#Load the Library Tidyverse
+library(tidyverse)
+
+```
+
+```{r}
+data(Orange) 
+
+Orange %>% func1() %>% 
+  print()
+```
+
+Here you go boss, these are some summary statistics about Oranges.
