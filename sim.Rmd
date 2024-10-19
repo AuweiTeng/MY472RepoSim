@@ -30,8 +30,8 @@ Orange %>% func1() %>%
 Here you go boss, these are some summary statistics about Oranges.
 
 ```{r}
-func2 <- function(data) {
-  return( colnames(data) ) #returns colom names
+func2 <- function(data_new) {
+  return( colnames(data_new) ) #returns colom names
 }
 ```
 
